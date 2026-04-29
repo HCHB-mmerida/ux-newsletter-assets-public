@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="x-apple-disable-message-reformatting" />
     <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Red+Hat+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -110,6 +112,7 @@
       }
 
       .blue-card {
+        background-color: #1d4ed8;
         background: linear-gradient(180deg, #1e3a8a 0%, #1d4ed8 100%);
         border-radius: 12px;
         border-collapse: separate !important;
@@ -119,12 +122,96 @@
       }
 
       .quicklinks {
+        background-color: #dbeafe;
         background: linear-gradient(180deg, #bfdbfe 0%, #eff6ff 100%);
         border-radius: 12px;
         border-collapse: separate !important;
         overflow: hidden;
         border: 1px solid #d0d0d0;
         box-shadow: 2px 3px 8px rgba(9, 15, 27, 0.1);
+      }
+
+      .office-hours-card,
+      .office-hours-card td {
+        background-color: #1d4ed8 !important;
+      }
+
+      .office-hours-text,
+      .office-hours-text div,
+      .office-hours-text td,
+      .office-hours-text a {
+        color: #ffffff !important;
+      }
+
+      .office-hours-text a {
+        color: #eff6ff !important;
+      }
+
+      .quicklinks-card,
+      .quicklinks-card td {
+        background-color: #dbeafe !important;
+      }
+
+      .quicklinks-text,
+      .quicklinks-text div,
+      .quicklinks-text td,
+      .quicklinks-text ul,
+      .quicklinks-text li {
+        color: #090f1b !important;
+      }
+
+      .quicklinks-text a {
+        color: #1e40af !important;
+      }
+
+      [data-ogsc] .office-hours-card,
+      [data-ogsc] .office-hours-card td {
+        background-color: #1d4ed8 !important;
+      }
+
+      [data-ogsc] .office-hours-text,
+      [data-ogsc] .office-hours-text div,
+      [data-ogsc] .office-hours-text td,
+      [data-ogsc] .office-hours-text a {
+        color: #ffffff !important;
+      }
+
+      [data-ogsc] .office-hours-text a {
+        color: #eff6ff !important;
+      }
+
+      [data-ogsc] .quicklinks-card,
+      [data-ogsc] .quicklinks-card td {
+        background-color: #dbeafe !important;
+      }
+
+      [data-ogsc] .quicklinks-text,
+      [data-ogsc] .quicklinks-text div,
+      [data-ogsc] .quicklinks-text td,
+      [data-ogsc] .quicklinks-text ul,
+      [data-ogsc] .quicklinks-text li {
+        color: #090f1b !important;
+      }
+
+      [data-ogsc] .quicklinks-text a {
+        color: #1e40af !important;
+      }
+
+      .logo-light {
+        display: block;
+      }
+
+      .logo-dark {
+        display: none;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .logo-light {
+          display: none;
+        }
+        .logo-dark {
+          display: block;
+        }
       }
 
       @media screen and (max-width: 660px) {
@@ -454,9 +541,9 @@
 
                   <tr>
                     <td style="padding: 0 0 32px 0;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="blue-card">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="blue-card office-hours-card" bgcolor="#1d4ed8" style="background-color: #1d4ed8; background: linear-gradient(180deg, #1e3a8a 0%, #1d4ed8 100%); border-radius: 12px; border-collapse: separate !important; overflow: hidden;">
                         <tr>
-                          <td class="card-inner" style="padding: 32px; color: #ffffff;">
+                          <td class="card-inner office-hours-card office-hours-text" bgcolor="#1d4ed8" style="padding: 32px; color: #ffffff; background-color: #1d4ed8; border-radius: 12px;">
                             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                               <tr>
                                 <td class="stack" width="160" valign="top" style="width: 160px; padding: 0 12px 0 0;">
@@ -482,9 +569,9 @@
 
                   <tr>
                     <td style="padding: 0 0 10px 0;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="quicklinks">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="quicklinks quicklinks-card" bgcolor="#dbeafe" style="background-color: #dbeafe; background: linear-gradient(180deg, #bfdbfe 0%, #eff6ff 100%); border-radius: 12px; border-collapse: separate !important; overflow: hidden;">
                         <tr>
-                          <td class="card-inner" style="padding: 32px;">
+                          <td class="card-inner quicklinks-card quicklinks-text" bgcolor="#dbeafe" style="padding: 32px; background-color: #dbeafe; border-radius: 12px;">
                             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                               <tr>
                                 <td class="h3" style="font-size: 24px; line-height: 34px; font-weight: 600; color: #090f1b;">UX Quicklinks</td>
@@ -531,7 +618,8 @@
                       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                         <tr>
                           <td width="94" valign="middle" style="width: 94px; padding-right: 12px;">
-                            <img src="https://raw.githubusercontent.com/HCHB-mmerida/ux-newsletter-assets-public/main/ux-newsletter-issue1/HCHB-logo.png" width="94" height="21" alt="HCHB" style="display: block; width: 94px; height: 21px;" />
+                            <img class="logo-light" src="https://raw.githubusercontent.com/HCHB-mmerida/ux-newsletter-assets-public/main/ux-newsletter-issue1/HCHB-logo.png" width="94" height="21" alt="HCHB" style="display: block; width: 94px; height: 21px;" />
+                            <img class="logo-dark" src="https://raw.githubusercontent.com/HCHB-mmerida/ux-newsletter-assets-public/main/ux-newsletter-issue1/HCHB-logo-dark-mode.png" width="94" height="21" alt="HCHB" style="display: none; width: 94px; height: 21px;" />
                           </td>
                           <td valign="middle" style="font-size: 10px; line-height: 14px; color: #6e7480;">&copy; Copyright 2026 HCHB</td>
                           <td align="right" valign="middle" class="arapey-regular-italic" style="font-family: 'Arapey', Georgia, 'Times New Roman', serif; font-size: 20px; line-height: 22px; font-weight: 400; color: #6e7480; white-space: nowrap;">Company confidential</td>
