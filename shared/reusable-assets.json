@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "generatedFrom": "Issues 1-3",
+  "baseUrl": "https://raw.githubusercontent.com/HCHB-mmerida/ux-newsletter-assets-public/main/shared/",
+  "categories": {
+    "branding": [
+      {
+        "id": "hchb-logo-initials",
+        "path": "branding/hchb-logo-initials.png",
+        "notes": "Canonical logo asset for newsletter footer"
+      }
+    ],
+    "avatars": [
+      {"id": "marty", "path": "avatars/marty.png"},
+      {"id": "wes", "path": "avatars/wes.png"},
+      {"id": "lonnie", "path": "avatars/lonnie.png"},
+      {"id": "tessa", "path": "avatars/tessa.png"},
+      {"id": "ezequiel", "path": "avatars/ezequiel.png"},
+      {"id": "lindsay", "path": "avatars/lindsay.png"},
+      {"id": "carla", "path": "avatars/carla.png"},
+      {"id": "damian", "path": "avatars/damian.png"},
+      {"id": "enrique", "path": "avatars/enrique.png"}
+    ],
+    "outlookAvatarFallbacks": [
+      {"id": "marty-42-circle", "path": "avatars/marty-42-circle.png", "size": "42x42"},
+      {"id": "wes-42-circle", "path": "avatars/wes-42-circle.png", "size": "42x42"},
+      {"id": "lonnie-42-circle", "path": "avatars/lonnie-42-circle.png", "size": "42x42"},
+      {"id": "tessa-42-circle", "path": "avatars/tessa-42-circle.png", "size": "42x42"},
+      {"id": "ezequiel-42-circle", "path": "avatars/ezequiel-42-circle.png", "size": "42x42"},
+      {"id": "lindsay-42-circle", "path": "avatars/lindsay-42-circle.png", "size": "42x42"},
+      {"id": "carla-54-circle", "path": "avatars/carla-54-circle.png", "size": "54x54"},
+      {"id": "damian-54-circle", "path": "avatars/damian-54-circle.png", "size": "54x54"},
+      {"id": "enrique-54-circle", "path": "avatars/enrique-54-circle.png", "size": "54x54"}
+    ]
+  }
+}
