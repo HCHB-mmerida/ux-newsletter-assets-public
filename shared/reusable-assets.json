@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedFrom": "Issues 1-4",
+  "generatedFrom": "Issues 1-5",
   "baseUrl": "https://raw.githubusercontent.com/HCHB-mmerida/ux-newsletter-assets-public/main/shared/",
   "categories": {
     "branding": [
@@ -28,6 +28,8 @@
       {"id": "tessa-42-circle", "path": "avatars/tessa-42-circle.png", "size": "42x42"},
       {"id": "ezequiel-42-circle", "path": "avatars/ezequiel-42-circle.png", "size": "42x42"},
       {"id": "lindsay-42-circle", "path": "avatars/lindsay-42-circle.png", "size": "42x42"},
+      {"id": "carla-42-circle", "path": "avatars/carla-42-circle.png", "size": "42x42"},
+      {"id": "lindsay-100-circle", "path": "avatars/lindsay-100-circle.png", "size": "100x100"},
       {"id": "carla-54-circle", "path": "avatars/carla-54-circle.png", "size": "54x54"},
       {"id": "damian-54-circle", "path": "avatars/damian-54-circle.png", "size": "54x54"},
       {"id": "enrique-54-circle", "path": "avatars/enrique-54-circle.png", "size": "54x54"}
