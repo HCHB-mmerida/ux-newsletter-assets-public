@@ -14,6 +14,13 @@ Folder layout:
 URL pattern:
 - `https://raw.githubusercontent.com/HCHB-mmerida/ux-newsletter-assets-public/main/shared/<category>/<file>`
 
+## Team avatar standard
+
+- Use `avatars/<person>.png` as the canonical portrait: 116x116 with a white background, a 1px `#D8DADD` circular rim, and no soft-shadow padding.
+- Use the matching `*-<size>-circle.png` file for Outlook, with `<size>` matching the rendered avatar size.
+- When a portrait changes, regenerate its listed fallbacks from the same crop and sync both `email-assets/shared/avatars/` and this folder.
+- In Figma and standard templates, use the canonical shared portrait rather than a separate, manually cropped copy.
+
 Guidelines:
 1. Prefer shared assets in new issue templates when applicable.
 2. Keep issue-specific assets under `ux-newsletter-issueN/`.

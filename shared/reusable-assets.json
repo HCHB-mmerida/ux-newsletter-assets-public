@@ -1,7 +1,14 @@
 {
   "version": 1,
-  "generatedFrom": "Issues 1-5",
+  "generatedFrom": "Issues 1-6",
   "baseUrl": "https://raw.githubusercontent.com/HCHB-mmerida/ux-newsletter-assets-public/main/shared/",
+  "avatarPolicy": {
+    "sourceSize": "116x116",
+    "sourceBackground": "white",
+    "ringColor": "#D8DADD",
+    "ringWidth": "1px",
+    "outlookFallback": "Circular PNG at the rendered slot size"
+  },
   "categories": {
     "branding": [
       {
